@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda Personal</h1>
+    </header>
+
+    <section id="contact-form">
+        <h2>Agregar Contacto</h2>
+        <form id="addContact">
+            <input type="text" id="nombreCompleto" placeholder="Nombre completo" required>
+            <input type="text" id="numeroDocumento" placeholder="Número de documento" required>
+            <input type="text" id="direccion" placeholder="Dirección">
+            <input type="tel" id="telefono" placeholder="Número telefónico">
+            <input type="email" id="correo" placeholder="Correo electrónico">
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <section id="contacts-list">
+        <!-- Los contactos se mostrarán aquí -->
+    </section>
+
+    <script src="app.ts"></script>
+</body>
+</html>
